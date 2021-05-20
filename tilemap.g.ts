@@ -44,7 +44,7 @@ namespace myTiles {
 . . . . . . . . . . . . . . . . 
 `, [myTiles.transparency16,sprites.dungeon.greenOuterNorthWest,sprites.dungeon.greenOuterNorth0,sprites.dungeon.greenOuterNorthEast,sprites.dungeon.greenOuterEast0,sprites.dungeon.greenOuterSouthWest,sprites.dungeon.greenOuterSouth0,sprites.dungeon.greenOuterSouth1,sprites.dungeon.greenOuterSouthEast,sprites.dungeon.greenOuterWest1,sprites.dungeon.greenOuterWest0,sprites.dungeon.floorDark2,sprites.dungeon.greenOuterNorth1,sprites.dungeon.greenOuterEast1,sprites.dungeon.floorDark1,sprites.dungeon.floorDark5,sprites.dungeon.greenInnerNorthEast,sprites.dungeon.purpleInnerNorthWest,sprites.dungeon.greenOuterWest2,sprites.dungeon.stairWest,sprites.dungeon.stairEast,sprites.dungeon.stairLarge,sprites.dungeon.greenInnerSouthWest,sprites.dungeon.greenOuterEast2,sprites.dungeon.greenOuterNorth2,sprites.dungeon.greenOuterSouth2,sprites.dungeon.greenInnerNorthWest,sprites.dungeon.greenInnerSouthEast,sprites.dungeon.stairLadder], TileScale.Sixteen);
             case "level1":
-            case "level1":return tiles.createTilemap(hex`1000100002040202020202030203020202030202020000000202020000000000000202020200000202000002020002020202000203000002000000000002020000000002020000000000000000000200000000020200000000000002000002020202000202000200000002000000000002000002020000020002000000000000020000020200000202000000020202020202000202000002000000000000000000000002020000020000000000000000000000030200000203020000000202020200000202000002000000000002000002000002020000020202030000020000020000020200000000000200000300000000050203020202020203020102020302020202`, img`
+            case "level1":return tiles.createTilemap(hex`100011000204020202020203020302020203020202000000020202000000000000020202020000020200000202000202020200020300000200000000000202000000000202000000000000000000020000000002020000000000000200000202020200020200020000000200000000000200000202000002000200000000000002000002020000020200000002020202020200020200000200000000000000000000000202000002000000000000000000000003020000020302000000020202020000020200000200000000000200000200000202000002020203000002000002000002020000000000020000030000000005020302020202020302010202030202020206060606060606060606060606060606`, img`
 2 . 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
 2 . . . 2 2 2 . . . . . . 2 2 2 
 2 . . 2 2 . . 2 2 . 2 2 2 2 . 2 
@@ -60,8 +60,28 @@ namespace myTiles {
 2 . . 2 . . . . . 2 . . 2 . . 2 
 2 . . 2 2 2 2 . . 2 . . 2 . . 2 
 2 . . . . . 2 . . 2 . . . . . 2 
+2 2 2 2 2 2 2 2 . 2 2 2 2 2 2 2 
 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-`, [myTiles.transparency16,sprites.dungeon.doorClosedSouth,sprites.dungeon.floorLight0,sprites.dungeon.floorLight1,sprites.dungeon.stairLarge,sprites.dungeon.collectibleRedCrystal], TileScale.Sixteen);
+`, [myTiles.transparency16,sprites.dungeon.doorClosedSouth,sprites.dungeon.floorLight0,sprites.dungeon.floorLight1,sprites.dungeon.stairLarge,sprites.dungeon.collectibleRedCrystal,sprites.dungeon.floorDark0], TileScale.Sixteen);
+            case "level2":
+            case "level2":return tiles.createTilemap(hex`1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000`, img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`, [myTiles.transparency16], TileScale.Sixteen);
         }
         return null;
     })

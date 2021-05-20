@@ -1,6 +1,10 @@
 info.onCountdownEnd(function () {
     game.over(false)
 })
+scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.collectibleRedCrystal, function (sprite, location) {
+    info.stopCountdown()
+    info.startCountdown(11)
+})
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.stairLarge, function (sprite, location) {
     game.over(true)
 })
@@ -26,4 +30,4 @@ controller.moveSprite(mySprite)
 tiles.setTilemap(tilemap`level1`)
 tiles.placeOnRandomTile(mySprite, sprites.dungeon.doorClosedSouth)
 scene.cameraFollowSprite(mySprite)
-info.startCountdown(10)
+info.startCountdown(8)
