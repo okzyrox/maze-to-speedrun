@@ -1,5 +1,5 @@
  
 
 
-> Open this page at [https://zyroxcodes.github.io/maze-to-speedrun/](https://zyroxcodes.github.io/maze-to-speedrun/)
+> Open this page at [https://okzyrox.github.io/maze-to-speedrun/](https://okzyrox.github.io/maze-to-speedrun/)
 
